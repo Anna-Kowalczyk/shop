@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zadanie rekrutacyjne</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/dropdownStyle.css">
+        <link rel="stylesheet" href="./css/selectStyle.css">
+        <script type="text/javascript" src="./json/products.json"></script>
+        <script type="text/javascript" src="./json/data.json"></script>
+
+    </head>
+    <body>
+        <section class="product-section container">
+          <div class="btns-collection">
+            <div id="filter-btn">
+              Filter
+            </div>
+
+            <div id="custom-select">
+                <div class="sort-by">sort by</div>
+                <select id="select"></select>
+                <i class="icon-down fas fa-angle-down"></i>
+            </div>
+          </div>
+
+          <div id="dropdown">
+              <label class="dropdown-label">Type</label>
+              <i class="icon-down fas fa-angle-down"></i>
+              <div id="dropdown-list">
+                <div class="checkbox">
+                  <input type="checkbox" name="dropdown-group-all" class="check-all checkbox-custom" id="checkbox-main" checked/>
+                  <label for="checkbox-main" class="checkbox-custom-label">Selection All</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="dropdown-group" class="check checkbox-custom" id="checkbox-custom_01" checked/>
+                  <label for="checkbox-custom_01" class="checkbox-custom-label">hair shampoos</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="dropdown-group" class="check checkbox-custom" id="checkbox-custom_02" checked/>
+                  <label for="checkbox-custom_02" class="checkbox-custom-label">hair conditioners</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="dropdown-group" class="check checkbox-custom" id="checkbox-custom_03" checked/>
+                  <label for="checkbox-custom_03" class="checkbox-custom-label">hair treatments</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="dropdown-group" class="check checkbox-custom" id="checkbox-custom_04" checked/>
+                  <label for="checkbox-custom_04" class="checkbox-custom-label">leave-in conditioners</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="dropdown-group" class="check checkbox-custom" id="checkbox-custom_05" checked/>
+                  <label for="checkbox-custom_05" class="checkbox-custom-label">2-in-1 shampoo and conditioner</label>
+                </div>
+              </div>
+          </div>
+
+          <div id="product-list"></div>
+
+        </section>
+
+        <script src="./script/script.js"></script>
+    </body>
+</html>

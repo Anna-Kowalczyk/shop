@@ -1,0 +1,30 @@
+var data = [
+    {
+        "ID": "0",
+        "Option_Name": "select an option"
+    },
+    {
+        "ID": "1",
+        "Option_Name": "featured"
+    },
+    {
+        "ID": "2",
+        "Option_Name": "price-high to low"
+    },
+    {
+        "ID": "3",
+        "Option_Name": "price-low to high"
+    },
+    {
+        "ID": "4",
+        "Option_Name": "average ratings"
+    },
+    {
+        "ID": "5",
+        "Option_Name": "best seller"
+    },
+    {
+        "ID": "6",
+        "Option_Name": "newest"
+    },
+];
