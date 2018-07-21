@@ -4,7 +4,7 @@ var productData = [
         "Product_Name": "C Moisture Rich Shampoo",
         "Price": 0.99,
         "Type": "hair shampoos",
-        "Photo": "https://cdn.pixabay.com/photo/2016/11/26/13/16/shampoo-1860642_960_720.png",
+        "Photo": "./img/shampoo.png",
         "Feature_Rating": 2,
         "Average_Rating": 4.3,
         "Sold no.": 34
@@ -14,7 +14,7 @@ var productData = [
         "Product_Name": "B Moisture Rich Conditioner",
         "Price": 19.99,
         "Type": "leave-in conditioners",
-        "Photo": "https://cdn.pixabay.com/photo/2016/11/26/13/16/shampoo-1860642_960_720.png",
+        "Photo": "./img/shampoo.png",
         "Feature_Rating": 5,
         "Average_Rating": 4.7,
         "Sold no.": 12
@@ -24,7 +24,7 @@ var productData = [
         "Product_Name": "A Shampoo and conditioner",
         "Price": 4.89,
         "Type": "2-in-1 shampoo and conditioner",
-        "Photo": "https://cdn.pixabay.com/photo/2016/11/26/13/16/shampoo-1860642_960_720.png",
+        "Photo": "./img/shampoo.png",
         "Feature_Rating": 4,
         "Average_Rating": 3.1,
         "Sold no.": 88
